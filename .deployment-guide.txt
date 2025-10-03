@@ -1,0 +1,54 @@
+===============================================
+RK MOBILE SOLUTION - DEPLOYMENT GUIDE (Hindi)
+===============================================
+
+🚀 RENDER PE DEPLOY KAISE KAREIN:
+
+1. GITHUB PE CODE UPLOAD KAREIN:
+   - GitHub.com pe jao
+   - New repository banao
+   - Yeh code upload karo
+
+2. RENDER PE JAO:
+   - Render.com pe account banao (free hai)
+   - "New +" button pe click karo
+   - "Web Service" select karo
+   - Apna GitHub repository connect karo
+
+3. BUILD SETTINGS (BAHUT IMPORTANT!):
+   
+   Build Command mein likho:
+   npm install && npm run build
+   
+   Start Command mein likho:
+   npm start
+   
+   ⚠️ IMPORTANT: Yeh commands sahi se dalo, warna colors nahi dikhenge!
+
+4. DEPLOY BUTTON PE CLICK KARO
+   - 2-3 minute mein website live ho jayegi
+   - Colors sahi dikhenge kyunki build command CSS compile karega
+
+===============================================
+
+❌ COMMON MISTAKE (Black & White Problem):
+
+Agar aapne sirf code upload kiya WITHOUT build command,
+toh CSS compile nahi hoga aur black-white dikhega.
+
+✅ SOLUTION: Hamesha "npm install && npm run build" 
+   build command mein dalna hai!
+
+===============================================
+
+💡 FAST DEPLOYMENT (Replit se):
+
+Replit pe yeh website already running hai properly.
+Aap directly Replit se publish kar sakte ho:
+- Replit pe "Publish" button pe click karo
+- Instant deploy ho jayega with proper colors!
+
+===============================================
+
+📞 SUPPORT:
+Phone/WhatsApp: 8950386412
